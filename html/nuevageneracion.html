@@ -3,14 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo 3D</title>
+    <title>Nueva Generación - F1 Motion</title>
+    <link rel="stylesheet" href="/css/nuevageneracion.css">
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-    <style>
-        body { display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
-        model-viewer { width: 80vw; height: 80vh; }
-    </style>
 </head>
 <body>
-    <model-viewer src="Prueba.glb" auto-rotate camera-controls></model-viewer>
+    <header>
+        <h1 class="main-title"><span class="highlight">F1 Motion:</span> La Revolución del Automovilismo</h1>
+        <nav>
+            <ul>
+                <li><a href="/html/index.html" class="nav-btn">🏁 Inicio</a></li>
+                <li><a href="/html/nuevageneracion.html" class="nav-btn">🚀 Nueva Generación</a></li>
+                <li><a href="/html/autosicono.html" class="nav-btn">🏎️ Autos Icónicos</a></li>
+                <li><a href="/html/curiosidades.html" class="nav-btn">🔍 Curiosidades</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="prototipo2022" class="car-section">
+        <h2>Prototipo 2022</h2>
+        <p>El diseño base de la nueva era de la F1, con aerodinámica simplificada, suelos efecto suelo y un enfoque en la reducción de turbulencias.</p>
+        <model-viewer src="./Prototipo.glb" auto-rotate camera-controls shadow-intensity="1"></model-viewer>
+    </section>
+    
+    <section id="astonmartin2023" class="car-section">
+        <h2>Aston Martin 2023</h2>
+        <p>El AMR23 destacó por su enfoque en estabilidad y mejoras aerodinámicas, con una gran evolución desde su predecesor.</p>
+        <model-viewer src="./AstonMartin.glb" auto-rotate camera-controls shadow-intensity="1"></model-viewer>
+    </section>
+    
+    <section id="mercedes2023" class="car-section">
+        <h2>Mercedes 2023</h2>
+        <p>El W14 mantuvo su filosofía de diseño sin pontones pero evolucionó hacia una mayor eficiencia en carga aerodinámica.</p>
+        <model-viewer src="mercedes2023.glb" auto-rotate camera-controls shadow-intensity="1"></model-viewer>
+    </section>
+    
+    <section id="redbull2023" class="car-section">
+        <h2>Red Bull 2023</h2>
+        <p>El RB19 dominó la temporada con un equilibrio aerodinámico sobresaliente y un diseño de suelo optimizado.</p>
+        <model-viewer src="redbull2023.glb" auto-rotate camera-controls shadow-intensity="1"></model-viewer>
+    </section>
+    
+    <section id="ferrari2023" class="car-section">
+        <h2>Ferrari 2023</h2>
+        <p>El SF-23 apostó por una evolución de su chasis con mejoras en velocidad punta y estabilidad en curvas rápidas.</p>
+        <model-viewer src="ferrari2023.glb" auto-rotate camera-controls shadow-intensity="1"></model-viewer>
+    </section>
+    
+    <section id="mclaren2023" class="car-section">
+        <h2>McLaren 2023</h2>
+        <p>El MCL60 experimentó mejoras significativas a mitad de temporada, aumentando su competitividad en la parrilla.</p>
+        <model-viewer src="mclaren2023.glb" auto-rotate camera-controls shadow-intensity="1"></model-viewer>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 F1 Motion | Nueva Generación</p>
+    </footer>
 </body>
 </html>
